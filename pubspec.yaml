@@ -1,0 +1,36 @@
+name: personal_notes
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  path_provider: ^2.0.11 # Abrir Carpetas
+  file_picker: ^8.1.7  # Abrir Archivos
+  open_file: ^3.2.1  # Leer Archivos
+  permission_handler: ^11.3.1 # Pedir Permisos 
+  flutter_launcher_icons: ^0.14.3 # Icono de la App
+  shared_preferences: ^2.5.3 # Guardar Datos Locales
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "images/logo2.png"
+
+  adaptive_icon_background: "#FFFFFF"
+  remove_alpha_ios: true
+  min_sdk_android: 21 # android min sdk min:16, default 21
+
+
+flutter:
+  uses-material-design: true
